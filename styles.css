@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<head>
+    <title> RESUME</title>
+    <link href="styles.css" rel="stylesheet" type="text/css";
+    <style>
+        .One{
+            border-style: double;
+            width: 900px;
+            height: 1000px;  
+            padding: 50px;
+            border-color: rgb(209, 187, 157);
+            background: rgba(241, 207, 196, 0.877);
+
+            
+           }
+           img{  
+               margin: 0px 70px 0px 30px;
+               width: 250px;
+               height: 250px;
+               border: 7px solid #ffffff;
+               border-radius: 200px;
+            }
+            #heads{
+                text-align: justify;
+                margin-left: 300p;
+                margin-right: 100px;
+            }
+            h1{
+                font-size: 40px;
+                color:rgb(150, 117, 27);
+            }
+            hr{
+                height: 1px;
+                width: 42% ;
+                border-width: 5px;
+                background-color: rgb(199, 113, 0);
+                margin: 30px 0px 0px 0px;    
+            }
+            .Two{
+                margin-top:130px;
+            }
+
+            .Seven{
+            border-style: double;
+            width: 300px;
+            height: 1000px;  
+            padding: 50px;
+            border-color: rgb(209, 187, 157);
+            background: rgba(145, 98, 83, 0.877);
+            text-align: right;
+            padding: 40px 0px 100px 10px;
+            border-bottom: 100px;
+            }
+
+            
+
+    </style>
+
+</head>
+<body>
+    <div class="One">
+        <header>
+            <img align="left" src="Abilay, Myra.jpg">
+            <div id="heads">
+            <h1> MYRA C. ABILAY </h1>
+            <p> Address: Zone 4, Dahilig Gainza, Camarines Sur</p>
+            <p> Number: 09636368290 </p>
+            <p> Email Address: myabilay@gbox.adnu.edu.ph</p>
+            </div>
+        </header>
+        
+        <div class="Two">
+            <h2><b>CONTACT DETAILS<b></h2>
+                <hr>
+                <br>
+                <a href="Contact__Info.html" align:left > Contact us</a>
+          </div>
+        
+          <div class="Three">
+            <table>
+                <tr>
+                    <h2><b>TECHNICAL SKILLS: <b></h2>
+                    <hr> 
+                    <ul>
+                    <li>Make use of Canva</li>
+                    <li>Programming languages</li>
+                    <li>Coding</li>
+                    <li>Time Management</li>
+                    </ul>
+                </tr>
+                </table>
+          </div>
+        
+        <div class="Four">
+            <table>
+                <tr>
+                    <h2><b>LANGUAGE <b></h2>
+                    <hr>
+                    <ul>
+                    <li>English</li>
+                    <li>FIlipino</li>
+                    </ul>
+                    </tr>
+                </table>
+        </div>
+        <div class="Fifth">
+            <table>
+                <tr>
+                <h2><b>CHARACTER REFERENCE <b></h2>
+                <hr>
+                <td>Ana Mae H. Jose:</td>
+                <td>Bachelor of Elementary Education <br> (Major in English) <br> 09093335869 <br> Balatas, Magsaysay, Naga City</td>
+                </tr>
+                </table> 
+        </div>
+        
+        <div class="Seven">
+            <div class="Six">
+                <h2><b>PERSONAL INFORMATION:</b></h2>
+                   <table>
+                   <tr>
+                   <td>Date of Birth:</td>
+                   <td>October 30, 2000 </td>
+                   </tr>
+                   <tr>
+                   <td>Place of Birth:</td>
+                   <td>Dahilig, Gainza </td>
+                   </tr>
+                   
+                   <tr>
+                   <td>Age:</td>
+                   <td>22 </td>
+                   </tr>
+                   
+                   <tr>
+                   <td>Gender:</td>
+                   <td>Female </td>
+                   </tr>
+                   
+                   <tr>
+                   <td>Height:</td>
+                   <td>4'11 </td>
+                   </tr>
+                   
+                   <tr>
+                   <td>Weight:</td>
+                   <td>43 </td>
+                   </tr>
+                   
+                   <tr>
+                   <td>Civil Status</td>
+                   <td>Single </td>
+                   </tr>
+                   
+                   <tr>
+                   <td>Religion:</td>
+                   <td>Roman Catholic
+                   </td>
+                   </tr>
+                   
+                   <tr>
+                   <td>Citizenship:</td>
+                   <td>Filipino</td>
+                   </tr>
+               </table>
+            </div> 
+
+            <div class="Eight"> 
+                <tr>
+                    <h2><b>EDUCATIONAL ATTAINMENT:<b></h2>
+                    </tr>
+                    <table>
+                <tr>
+                    <td><b>TERTIARY EDUCATION:<b></td>
+                    </tr>
+                    
+                    <tr>
+                    <td>School Name:</td>
+                    <td>Ateneo De Naga University</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>School Address: </td>
+                    <td>Ateneo De Naga University, 4400  Camarines Sur </td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Year Graduated: Present</td>
+                    <td>Present</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Course:</td>
+                    <td>Bachelor Science in Computer Science</td>
+                    </tr>
+                    
+                    <tr>
+                    <td><b>SECONDARY EDUCATION:<b></td>
+                    </tr>
+                    
+                    <tr>
+                    <td>School Name:  </td>
+                    <td> Camaligan National highschool</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>School Address: </td>
+                    <td>  San Jose-San Pablo, Camaligan</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Year Graduated: </td>
+                    <td>  San Jose-San Pablo, Camaligan</td>
+                    </tr>
+                    
+                    <tr>
+                    <td><b>PRIMARY EDUCATION:<b></td>
+                    </tr>
+                    
+                    <tr>
+                    <td>	School Name:  
+                    </td>
+                    <td>  Dahilig Elementary School</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>School Address:</td>
+                    <td>  Dahilig Gainza Camarines Sur</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Year Graduated: 
+                    </td>
+                    <td> 2007 – 2012</td>
+                    </tr>
+                </table>      
+            </div>  
+        </div>
+         
+    </div>
+    
+   
+
+</body>
