@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JAVASCRIPT</title>
+    <script language = "JavaScript" type="text/JavaScript">
+    function TASK1() {
+            document.getElementById("text").className= "green";
+    }
+
+    function Age(){
+        var age = document.ageForm.age.value;
+        var ageError =  document.getElementById("Error");
+
+        if(age>65){
+            ageError.textContent = "Age is greater than 65";
+        }
+        else {
+            ageError.textContent = "Age is less than 65";
+        }
+    }
+
+    function TASK2(){
+        var num1 = document.calculate.num1.value;
+        var num2 = document.calculate.num2.value;
+
+        document.getElementById("output").innerHTML = num1 * num2;
+    }
+
+    function TASK3(){
+        var num1 = document.calculate.num1.value;
+        var num2 = document.calculate.num2.value;
+
+        document.getElementById("output").innerHTML = num1 / num2;
+        
+    }
+    </script>
+
+    <style>
+        .green{
+            color: green;
+        }
+
+        body{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+    }
+    </style>
+ 
+
+</head>
+
+<body>
+    <p id="text" >This paragraph will change the color from black to green after pressing the button.</p>
+    <button onclick="TASK1()">Button</button>
+   
+
+    <form name="ageForm">
+        <br>
+        <input type="number" name="age"/>
+        <br>
+        <input type="button" onclick="Age()" value="Button"/>
+        <br>
+        <span id="Error"></span>
+    </form>
+
+    <form name="calculate">
+        <br>
+        <input type="number" name="num1" >
+        <br>
+        <input type="number" name="num2" >
+        <br>
+        <input type="button" value="Multiply" onclick="TASK2()">
+        <input type="button" value="Divide" onclick="TASK3()">
+        <br>
+        Answer:
+        <p id="output"></p>
+    </form>
+
+
+</body>
+</html>
