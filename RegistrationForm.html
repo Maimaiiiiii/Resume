@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+    
+            input[type=submit]{
+              width: 17%;
+              padding: 10px;
+              margin: 10px 0;
+              border-radius: 5px;
+              border: none;
+              background: rgb(40, 189, 10);
+              font-size: 15px;
+              cursor: pointer;
+              color:white;
+            }
+            input[type=reset]{
+              width: 17%;
+              padding: 10px;
+              margin: 10px 0;
+              border-radius: 5px;
+              border: none;
+              background: rgb(219, 25, 12);
+              font-size: 15px;
+              cursor: pointer;
+              color:white;
+            }
+            .Reg{
+                margin-top:50px;
+                font-family: 'Oswald';
+                font-size: 20px;
+                border-style:inherit;
+                width: 400px;
+                text-align: left;
+                padding-left: 3%;
+                background-color: white;
+                border-radius: 2%;
+                padding-top: 1%;
+                padding-bottom: 1%;
+            }
+            body{
+                background-color: lightslategrey;
+            }
+
+        </style>
+        
+    </head>
+    
+    <body>
+        <center>
+            <div class="Reg">
+      
+                <h1>Registration Form </h1>
+                  <form>
+                
+                  First Name:
+                  <br>
+                  <input type="text" name="firstname" />
+                  <br>
+              
+                  Last Name: 
+                  <br> 
+                  <input type="text" name="lastname" />
+                  <br>
+        
+                  Nick Name:  
+                  <br>
+                  <input type="text" name="nickname" />
+                  <br>
+        
+                  Email:  
+                  <br>
+                  <input type="text" name="email" /><br>
+        
+                  <label for="password">Password:<br></label>
+                  <input type="password" id="password" name="password">
+                  <br>
+        
+                  <label for="birthday">Date of Birth:<br></label>
+                  <input type="date" id="birthday" name="birthday">
+                  <br>
+        
+                  Gender:
+                  <br>
+                  <input type="radio" name="gender" /> Male
+                  <input type="radio" name="gender" /> Female 
+                  <br>
+        
+                  Mobile: 
+                  <br>
+                  <input type="text" name="mobile" />
+                  <br> 
+                  
+                  Address: 
+                  <br>
+                  <textarea name="description" cols="30" rows="10" placeholder="Message me here.."></textarea>
+                  <br>
+                  <input type="submit" value="Submit">
+                  <input type="reset" value="Reset">
+                  
+                  </form>
+                  </div>
+        </center>
+        
+    </body>
+</html>
